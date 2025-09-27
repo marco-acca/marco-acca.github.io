@@ -1,8 +1,9 @@
 BEGIN:VCARD
 VERSION:3.0
 FN:Marco Acca
-ORG:Azienda
+ORG:Mecaer Aviation Group
 TITLE:Amministratore Delegato / CEO
 TEL;TYPE=work,voice:+393421213619
-EMAIL;TYPE=work:business@example.com
+EMAIL;TYPE=work:marco.acca@mecaer.com
+URL:https://www.mecaer.com
 END:VCARD
