@@ -1,11 +1,8 @@
 BEGIN:VCARD
 VERSION:3.0
-N:Acca;Marco;;;
 FN:Marco Acca
-TITLE:
-ORG:
-TEL;TYPE=CELL,VOICE:+390000000000
-EMAIL;TYPE=INTERNET:business@example.com
-EMAIL;TYPE=INTERNET:personal@example.com
-URL:https://marco-acca.github.io
+ORG:Azienda
+TITLE:Amministratore Delegato / CEO
+TEL;TYPE=work,voice:+393421213619
+EMAIL;TYPE=work:business@example.com
 END:VCARD
