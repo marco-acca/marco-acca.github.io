@@ -12,6 +12,7 @@
       --primary:#0a4dad; --primary2:#1e6bfd; --accent:#e6f0ff; --radius:20px;
       --shadow:0 12px 28px rgba(3,24,73,.12);
       --red:#d62828; --red2:#e63946; --green:#0b7a6b;
+      --linkedin: rgba(0, 141, 230, 1);
     }
     @media (prefers-color-scheme: dark){
       :root{
@@ -49,6 +50,8 @@
     .btn.green{background:var(--green)}
     .btn.red{background:#d62828}
     .btn.red:hover{background:#e63946}
+    .btn.linkedin{background:var(--linkedin)}
+    .btn.linkedin:hover{background:rgba(0, 121, 200, 1)}
     .btn span{opacity:.95}
     .contacts-inline{
       margin-top:14px;
@@ -100,7 +103,6 @@
           <p class="role" data-lang="en">CEO — MECAER</p>
           <p class="role rtl" data-lang="ar">الرئيس التنفيذي — MECAER</p>
 
-          <!-- ACTIONS reordered: red button first -->
           <div class="actions">
             <a class="btn red" href="Marco.vcf" download>
               <strong>📇</strong>
@@ -112,7 +114,7 @@
             <a class="btn gray" href="mailto:marco.acca@mecaer.com"><strong>✉️</strong><span data-lang="it" class="show">Email Aziendale</span><span data-lang="en">Business Email</span><span class="rtl" data-lang="ar">البريد (عمل)</span></a>
             <a class="btn green" target="_blank" href="https://wa.me/393421213619"><strong>💬</strong><span>WhatsApp</span></a>
             <button class="btn gray" type="button" id="btn-share"><strong>🔗</strong><span data-lang="it" class="show">Condividi</span><span data-lang="en">Share</span><span class="rtl" data-lang="ar">مشاركة</span></button>
-            <a class="btn gray" target="_blank" href="https://www.linkedin.com/company/mag-mecaer-aviation-group-spa/posts/?feedView=all"><strong>in</strong><span>LinkedIn</span></a>
+            <a class="btn linkedin" target="_blank" href="https://www.linkedin.com/company/mag-mecaer-aviation-group-spa/posts/?feedView=all"><strong>in</strong><span>LinkedIn</span></a>
           </div>
 
           <div class="contacts-inline">
